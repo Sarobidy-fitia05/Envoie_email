@@ -45,7 +45,7 @@ public class RegistrationService {
               "Bonjour "
                   + user.getFirstName()
                   + ", inscription validée.", // 5: String (htmlBody) -> Java attendait un String
-                                              // ici !
+              // ici !
               List.of() // 6: List<File> (attachments)
               );
 
